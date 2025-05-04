@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    color: white;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.navHero{
+    background-image: url(/elements/blue\ top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero {
+    padding: 50px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn-primary {
+    background-color: #2d7df4;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+}
+.carBG {
+    margin-top: -100px;
+    margin-bottom: -200px;
+}
+.car-img {
+    width: 80%;
+}
+.section-area {
+    background-image: url(/elements/blue\ dot.png);
+    background-size:900px 500px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.service-box {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    height: 100%;
+}
+.service-box:hover {
+    background: linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%);
+}
+.section-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.contact {
+    background-image: url(/elements/blue\ dot.png);
+    background-size:2000px 1600px;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+.footer {
+    background: linear-gradient(220.55deg, #4643DF 0%, #0B0A47 100%);
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+.form-control {
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+}
